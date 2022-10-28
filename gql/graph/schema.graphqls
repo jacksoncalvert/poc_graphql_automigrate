@@ -1,0 +1,13 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+type HellOr {
+  id: String!
+  msg: String!
+}
+
+
+type Query {
+  getHellOr: HellOr!
+}
